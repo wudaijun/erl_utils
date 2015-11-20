@@ -1,0 +1,14 @@
+{application, map2record,
+ [
+  {description, "An Erlang map2record library"},
+  {vsn, "1"},
+  {modules, [
+             map2record
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
